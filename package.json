@@ -9,6 +9,7 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
+		"babel-plugin-inline-react-svg": "^2.0.2",
 		"next": "15.0.3",
 		"postcss-rem-to-responsive-pixel": "^6.0.2",
 		"react": "19.0.0-rc-66855b96-20241106",
