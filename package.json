@@ -9,6 +9,7 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
+		"@svgr/webpack": "^8.1.0",
 		"babel-plugin-inline-react-svg": "^2.0.2",
 		"next": "15.0.3",
 		"postcss-rem-to-responsive-pixel": "^6.0.2",
