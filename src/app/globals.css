@@ -4,8 +4,13 @@
 
 html,
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
 	font-size: 1svw;
+}
+@layer base {
+	p {
+		@apply text-body2;
+	}
 }
 
 @layer components {
@@ -50,7 +55,7 @@ body {
 	.text-body2 {
 		font-family: var(--font-roboto), sans-serif;
 		font-size: 1.125rem;
-		font-weight: 600;
+		font-weight: 700;
 		line-height: 140%;
 	}
 }

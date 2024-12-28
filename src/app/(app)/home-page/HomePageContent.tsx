@@ -3,7 +3,7 @@ import Header from '@/components/ui/Header'
 const HomePageContent = () => {
 	return (
 		<div>
-			<Header />
+			<Header userLocation='Ukraine' />
 			HomePageContent
 		</div>
 	)
