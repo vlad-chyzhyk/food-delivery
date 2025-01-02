@@ -14,31 +14,36 @@ body {
 }
 
 @layer components {
-	.text-h1 {
+	.text-h1,
+	h1 {
 		font-family: var(--font-roboto), sans-serif;
 		font-size: 5.5rem;
 		font-weight: 700;
 		line-height: 100%;
 	}
-	.text-h2 {
+	.text-h2,
+	h2 {
 		font-family: var(--font-roboto), sans-serif;
 		font-size: 4.25rem;
 		font-weight: 700;
 		line-height: 106%;
 	}
-	.text-h3 {
+	.text-h3,
+	h3 {
 		font-family: var(--font-roboto), sans-serif;
 		font-size: 3.563rem;
 		font-weight: 700;
 		line-height: 97.5%;
 	}
-	.text-h4 {
+	.text-h4,
+	h4 {
 		font-family: var(--font-roboto), sans-serif;
 		font-size: 3rem;
 		font-weight: 700;
 		line-height: 110%;
 	}
-	.text-h5 {
+	.text-h5,
+	h5 {
 		font-family: var(--font-roboto), sans-serif;
 		font-size: 2.75rem;
 		font-weight: 700;
